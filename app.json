@@ -1,12 +1,11 @@
 {
   "expo": {
-    "name": "alexaDespacito",
-    "slug": "alexaDespacito",
+    "name": "CryptoChecker",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/main.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/main.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,12 +20,15 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/main.png",
+        "backgroundColor": "#27292D"
+      },
+      "package": "com.wolfapp.alexaDespacito"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "",
+    "slug": "cryptochecker"
   }
 }
